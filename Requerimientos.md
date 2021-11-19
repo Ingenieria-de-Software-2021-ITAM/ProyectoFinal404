@@ -11,3 +11,5 @@
 * Que los usuarios tengan un perfil en el que salgan sus propuestas y comentarios
 * Que los usuarios puedan "seguir" a un proyecto
 * Que se notifique a los usuarios si un proyecto que siguen ha sido editado
+* Los proyectos que sean subidos por los usuarios deben pasar por un proceso de aprobación por autoridades del ITAM antes de ser publicados a la vista de todos
+* Los usuarios pueden elegir la opción de ocultar de su vista principal los proyectos por los que hayan votado
