@@ -11,12 +11,12 @@
 
 # 1. Test plan identifier <a name="testplan"></a>
 
-# 2. References<a name="testplan"></a>
+# 2. References<a name="references"></a>
 
 # 3. Introduction<a name="intro"></a>
 
-# 5. Software Risk Issues<a name="risk"></a>
+# 5. Software Risk Issues<a name="featuretest"></a>
 
-# 6. Features to be tested<a name="featuretest"></a>
+# 6. Features to be tested<a name="featurenotest"></a>
 
 # 7. Features not to be tested<a name="approach"></a>
