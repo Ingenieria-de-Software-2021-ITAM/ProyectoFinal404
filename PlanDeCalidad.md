@@ -34,24 +34,24 @@
 
 # 7. Features not to be tested<a name="7"></a>
 
-# 8. Features not to be tested<a name="7"></a>
+# 8. Approach<a name="8"></a>
 
-# 9. Features not to be tested<a name="7"></a>
+# 9. Item Pass/Fail Criteria<a name="9"></a>
 
-# 10. Features not to be tested<a name="7"></a>
+# 10. Suspension Criteria and Resumption Requirements<a name="10"></a>
 
-# 11. Features not to be tested<a name="7"></a>
+# 11. Test Deliverables<a name="11"></a>
 
-# 12. Features not to be tested<a name="7"></a>
+# 12. Remaining Test Tasks<a name="12"></a>
 
-# 13. Features not to be tested<a name="7"></a>
+# 13. Environmental Needs<a name="13"></a>
 
-# 14. Features not to be tested<a name="7"></a>
+# 14. Staffing and Training Needs<a name="14"></a>
 
-# 15. Features not to be tested<a name="7"></a>
+# 15. Responsibilities <a name="15"></a>
 
-# 16. Features not to be tested<a name="7"></a>
+# 16. Schedule<a name="16"></a>
 
-# 17. Features not to be tested<a name="7"></a>
+# 17. Planning Risks and Contingencies<a name="17"></a>
 
-# 18. Features not to be tested<a name="7"></a>
+# 18. Approvals <a name="18"></a>
