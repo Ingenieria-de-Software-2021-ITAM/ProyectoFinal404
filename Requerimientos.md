@@ -57,7 +57,7 @@ Instituto Tecnológico Autónomo de México
 | Equipo 404NotFound | 24/11/2021 | Implementación del documento que vimos en clase| `2.0` |
 
 # 1. Introduction<a name="1"></a>
-Este proyecto es para no reprobar la materia :).
+El presente proyecto tiene como motivación el desarrollo de una apliación web que permita a los alumnos, profesores y administrativos del ITAM enviar propuestas, que el resto de la comunidad las vea y que, por lo tanto, se facilite la implementación de dichas propuestas. El fin último es, pues, generar comunidad en beneficio de todos.
 
 ## 1.1 Purpose<a name="11"></a>
 
