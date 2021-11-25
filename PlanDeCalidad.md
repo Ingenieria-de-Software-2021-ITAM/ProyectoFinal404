@@ -106,14 +106,20 @@ Para proporcionar pruebas completas y adecuadas, las siguientes áreas deben abo
 # 15. Responsibilities <a name="15"></a>
 
 # 16. Schedule<a name="16"></a>
+Se asignaron los tiempos de entrega dentro del plan del proyecto para las siguientes actividades de prueba. Las fechas y horas específicas para cada actividad se definen en el cronograma del plan del proyecto. Las personas necesarias para cada proceso se detallan también en el cronograma y el plan del proyecto. La coordinación del personal requerido para cada tarea, equipo de prueba, equipo de desarrollo, administración y cliente será manejada por el gerente del proyecto en conjunto con los líderes del equipo de desarrollo y prueba.
+  * Revisión del documento de requisitos
+  * Desarrollo del plan de pruebas
+  * Revisión del prototipo
+  * Creación de la estructura de la Base de Datos
 
 # 17. Planning Risks and Contingencies<a name="17"></a>
-
+  * Falta de personal
+  
 # 18. Approvals <a name="18"></a>
 
 | Nombre | Firma  |
 | ------ | ------ |
-| Carlos Delgado ||
-| Alberto Márquez ||
-| Alexis Sánchez ||
-| Paulina Garza ||
+| Carlos Alberto Delgado Elizondo ||
+| José Alberto Márquez Luján ||
+| Alexis Sánchez Orosco ||
+| Paulina Garza Allende ||
