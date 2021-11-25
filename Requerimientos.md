@@ -102,45 +102,76 @@ Estamos suponiendo —una gran suposición— que el ITAM nos permitirá utiliza
 # 3. External Interface Requirements<a name="3"></a>
 
 ## 3.1 User Interfaces<a name="31"></a>
+La interfaz de usuario, como ya se mencionó anteriormente, se modeló haciendo un [prototipo](https://app.moqups.com/0ZtC3Y6d6nMGTIMxgIoanfiN5oTVH2Oy/view/page/ad64222d5) en la plataforma moqups. En el link proporcionado se puede consultar todo lo que concierne a este tema.
 
 ## 3.2 Hardware Interfaces<a name="32"></a>
+Al tratarse de una página web, la interacción con el hardware está limitada a lo que comúnmente hacen las páginas web. No se requiere un hardware muy específico para poder navegar en internet; consecuentemente, tampoco hay muchos requerimientos de hardware para la página web.
 
 ## 3.3 Software Interfaces<a name="33"></a>
+La aplicación tendrá interacción con una base de datos central en la que estarán registradastodas las propuestas, así como sus comentarios, evaluaciones, etcétera. También es necesario que la aplicación sea capaz de interactuar con la base de datos del ITAM en la que se almacenan los nombres de usuarios y contraseñas. Si no puede acceder directamente a ella, que por lo menos sea a través de una herramienta, de una manera análoga a lo que sucede con la aplicación Canvas.
 
 ## 3.4 Communication Interfaces<a name="34"></a>
+Las notificaciones se enviarán por medio de correo electrónico, por lo que hay que tomar en cuenta la tecnología para comunicarse por este medio. También será necesario que la aplicación funcione mediante una conexión segura y un protocolo conocido, como lo es `https`. La transferencia de datos desde la base de datos del ITAM a la verificación de nuestro sitio web debe ser lo más segura y eficiente posible.
 
 # 4. System Features<a name="4"></a>
+
 ## 4.1 Login<a name="41"></a>
+
 Los alumnos del ITAM podrán ingresar a la página web usando las mismas credenciales que han usado siempre.
+
 ## 4.2 Subir propuestas<a name="42"></a>
+
 Cualquier usuario podrá subir una propuesta sobre un proyecto a la plataforma. Esto lo hará *solamente* desde su propia cuenta.
+
 ## 4.3 Calificación a los proyectos<a name="43"></a>
+
 Los usuarios podrán calificar las propuestas hechas por otros usuarios. Para hacerlo más interactivo y que la aplicación congenie mejor los estudiantes, la propuesta será evaluada en función de cuántos "colmillos" tiene; es decir, cada propuesta tendrá una calificación que va desde cero a cinco colmillos.
+
 ## 4.4 Comentarios<a name="44"></a>
+
 Los usuarios podrán comentar las propuestas hechas por otros usuarios. Habrá comentarios anidados; es decir, un usuario podrá comentar el comentario de otro usuario y así sucesivamente. Los comentarios también serán calificados por los usuarios con la misma escala descrita en la sección anterior y serán mostrados según su calificación, con los comentarios mejor evaluados hasta arriba. Para que se puedan ordenar, se debe cumplir con un mínimo de evaluaciones.
+
 ## 4.5 Edición e historial de propuestas<a name="45"></a>
+
 Los usuarios podrán editar sus propias propuestas ya publicadas. Por esta razón, el resto de los usuarios será capaz de ver el historial de la propuesta en cuestión y evaluar cada versión independiente.
+
 ## 4.6 Etiquetas<a name="46"></a>
+
 Los usuarios podrán agregar etiquetas a las propuestas, tales como "deportiva", "cultura", "académica", etcétera. Esto facilitará la búsqueda y filtro de proyectos.
+
 ## 4.7 Sección de "trending"<a name="47"></a>
+
 La página contará con una sección que tenga los proyectos que sean tendencia en el momento. Así los usuarios podrán estar al corriente con propuestas que hagan los otros usuarios.
+
 ## 4.8 Perfiles<a name="48"></a>
+
 Cada usuario contará con un perfil público en el que se verán sus propuestas publicadas y comentarios hechos a propuestas.
+
 ## 4.9 Seguimiento de proyectos<a name="49"></a>
+
 Los usuarios podrán "seguir" un proyecto que les haya agradado para ver posibles ediciones, el estatus del proyecto, nuevos comentarios, lo que se necesita hacer, etcétera. Se enviará una notificación a los usuarios cada vez que haya un cambio en alguno de los proyectos que siguen.
+
 ## 4.10 Aprobación de proyectos<a name="410"></a>
+
 Los proyectos que sean subidos por los usuarios deben pasar por un proceso de aprobación realizado por las autoridades del ITAM antes de ser publicados. 
+
 ## 4.11 Ocultar proyectos<a name="411"></a>
+
 Los usuarios podrán elegir la opción de ocultar de su vista principal los proyectos por los que ya hayan votado o que ya hayan visto y no les interese.
 
 # 5. Nonfunctional Requirements<a name="5"></a>
 
 ## 5.1 Performance Requirements<a name="51"></a>
+La aplicación no deberá preocuparse por manejar transacciones inmediatas y simultáneas; como se trata de publicaciones de proyectos, sin embargo, sí es importante que soporte grandes cantidades de información, sobre todo por el tema de los comentarios anidados. 
 
 ## 5.2 Safety Requirements<a name="52"></a>
+Al tratarse de una página web con un objetivo muy específico, el uso de este producto implica un riesgo muy bajo a la integridad física del usuario en cuestión. Sin embargo, como en cualquier plataforma en la que se puede evaluar el contenido publicado por otros usuarios, hay que tener presente el posible impacto que pueda tener este tipo de aplicación en la salud mental y emocional de quienes la usen. 
 
 ## 5.3 Security Requirements<a name="53"></a>
+Nuestra principal preocupación en lo que concierne a seguridad es que no se filtren los datos personales ni las credenciales de nuestros usuarios para que sea posible acceder al sistema del ITAM de manera segura. Un tema, además de éste, que hay que resolver, es cómo vamos a saber de quién fue la idea originalmente; de por sí, la propiedad intelectual es complicada. Entonces tenemos que ver cómo podemos hacerle para que no sea posible plagiar ideas y presentarlas como propias en nuestra plataforma.
 
 ## 5.4 Software Quality Attributes<a name="54"></a>
+Será de suma importancia que la página sea responsiva, ya que no hay un único tamaño de pantallas de computadora. También, en la medida de lo posible, se intentará que la página siempre esté disponible y no se desconecte de la red constantemente. 
 
 ## 5.5 Business Rules<a name="55"></a>
+Esta aplicación se tendrá que apegar al reglamento del ITAM y a lo que las autoridades de la institución decidan. Insistimos: es un complemento a otros mecanismos; no es el único método ni la única vía para proponer un cambio en el ITAM.
