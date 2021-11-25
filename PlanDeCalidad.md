@@ -70,14 +70,38 @@ Por último, mediante encuestas de satisfacción, les preguntaremos a los usuari
 Se busca un criterio de aprobación estricto, en donde si las pruebas no son exitosas no se aprobarán para la versión final. Además, se debe completar en su totalidad las pruebas establecidas para que la aplicación pueda ser usada por el público. Se tendrá como margen, en dado caso de tener que liberar la aplicación antes por tiempo, que no haya falla en las funcionalidades estructurales y esenciales para que haya una operatividad que no entorpezca el uso de la aplicación.
 
 # 10. Suspension Criteria and Resumption Requirements<a name="10"></a>
+- Los servidores del ITAM no están disponibles o hay alguna falla en ellos. En ese caso el hacer las pruebas sería en vano ya que se tendría que hacer la instalación y las pruebas nuevamente cuando sea posible hacerlas. 
+- La entrega se retrasa significativamente por alguna razón fuera del control del equipo. En este caso no se pueden hacer las pruebas en su debido tiempo ya que no habría software que probar.
 
 # 11. Test Deliverables<a name="11"></a>
+  * Planes de prueba
+  * Prototipos de pantallas
+  * Informenes y resúmenes de defectos e incidentes
+  * Simulacion en Moqups
 
 # 12. Remaining Test Tasks<a name="12"></a>
+| Tarea | Asignada a | Status | 
+|------ | ---------- | ------ |
+| Crear la estructura de la Base de Datos | TM, Dev | |
+| Crear los planes de código | TM, PM| |
+| Verificar prototipos de pantallas | Dev, Cliente, TM | |
+| Verificar prototipos de informes | Dev, Cliente, TM | |
 
 # 13. Environmental Needs<a name="13"></a>
+Los siguientes elementos se requieren para respaldar las pruebas generales en todos los niveles dentro del proyecto:
+  * Acceso a la Base de Datos de Logs
+  * Creación de la estructura y llenado con datos de prueba de la Base de Datos
+  * Acceso a los servidores del ITAM
+  * Instalación de git
+  * Acceso a las 
 
 # 14. Staffing and Training Needs<a name="14"></a>
+Es preferible que haya al menos un tester de turno completo asignado al proyecto para todas las fases de prueba. Esto requerirá la asignación de una persona de tiempo parcial al comienzo del proyecto para que participe en las revisiones y aproximadamente a la mitad del proyecto se le asignaría de tiempo completo. Si una persona de prueba no está disponible, el Project Manager asumirá este rol.
+
+Para proporcionar pruebas completas y adecuadas, las siguientes áreas deben abordarse en términos de capacitación
+  * El developer y tester(s) deberán estar capacitados en las operaciones básicas de las librerias que se utilizarán para hacer las pruebas.
+  * Una persona del equipo debe de estar capacitada para utilizar Moqups para hacer los prototipos.
+  * Todo el equipo de saber utilizar git y sus funciones como push, pull y crear ramas.
 
 # 15. Responsibilities <a name="15"></a>
 
@@ -86,3 +110,10 @@ Se busca un criterio de aprobación estricto, en donde si las pruebas no son exi
 # 17. Planning Risks and Contingencies<a name="17"></a>
 
 # 18. Approvals <a name="18"></a>
+
+| Nombre | Firma  |
+| ------ | ------ |
+| Carlos Delgado ||
+| Alberto Márquez ||
+| Alexis Sánchez ||
+| Paulina Garza ||
