@@ -57,34 +57,47 @@ Instituto Tecnológico Autónomo de México
 | Equipo 404NotFound | 24/11/2021 | Implementación del documento que vimos en clase| `2.0` |
 
 # 1. Introduction<a name="1"></a>
-El presente proyecto tiene como motivación el desarrollo de una apliación web que permita a los alumnos, profesores y administrativos del ITAM enviar propuestas, que el resto de la comunidad las vea y que, por lo tanto, se facilite la implementación de dichas propuestas. El fin último es, pues, generar comunidad en beneficio de todos.
 
 ## 1.1 Purpose<a name="11"></a>
+El presente proyecto tiene como motivación el desarrollo de una apliación web que permita a los alumnos, profesores y administrativos del ITAM enviar propuestas, que el resto de la comunidad las vea y que, por lo tanto, se facilite la implementación de dichas propuestas. El fin último es, pues, generar comunidad en beneficio de todos.
 
 ## 1.2 Document Conventions<a name="12"></a>
+Para realizar este proyecto, nos hemos apegado a las formas que hemos visto a lo largo del curso de Ingeniería de Software. 
 
 ## 1.3 Intended Audience and Reading Suggestions<a name="13"></a>
+Este documento está pensado principalmente para la maestra, quien evaluará el desempeño de nuestro equipo; sin embargo, cualquier persona con un interés en hacer una implementación real y funcional del proyecto encontrará valor tanto en este documento como en el resto de los que se han trabajado. Si el o la lectora tiene un poco de prisa, pero desea conocer con suficiente detalle la planeación de este proyecto y las funcionalidades que se implementan en él, entonces sugiero que vaya directamente a la sección de [System Features](#4). De cualquier manera, este documento se diseñó con la idea de no dar tantos rodeos.
 
 ## 1.4 Product Scope<a name="14"></a>
+El software que se describe en este documento consiste en una página web en la que distintos miembros de la comunidad ITAM podrá manifestar sus ideas sobre proyectos que tenga en mente, darles forma, compartirlos, dar y recibir retroalimentación, perfeccionar su idea y, así, facilitar el proceso que se necesita para la implementación. Creemos que es un buen mecanismo para darle voz a estudiantes y otros miembros de la comunidad. 
 
 ## 1.5 References<a name="15"></a>
-
+Como ya se mencionó, gran parte de la base de este proyecto, si no es que toda, está conformada por los temas cubiertos en la materia de Ingeniería de Software, impartido por la maestra Paulina Bustos Arellano. También queremos mencionar que el prototipo de este proyecto se realizó utilizando la plataforma [moqups](https://moqups.com/es/).
 
 # 2. Overall Description<a name="2"></a>
 
 ## 2.1 Product Perspective<a name="21"></a> 
+Este producto será parte de la familia de páginas y servicios que ofrece el ITAM como universidad a su comunidad. Creemos que puede servir como extensión y soporte a los mecanismos que ya existen en el ITAM para dar forma a proyectos e ideas, como las representaciones de carreras u otras organizaciones estudiantiles. La aplicación se servirá a su vez de estos mismos servicios para obtener datos como correo electrónico, clave única, nombre, etcétera. 
 
 ## 2.2 Product Functions<a name="22"></a>
+La funcionalidad principal de este producto es compartir propuestas de proyectos a otros usuarios y poder comentar, evaluar y refinar propuestas propias y ajenas.
 
 ## 2.3 User Classes and Characteristics<a name="23"></a>
+El proyecto contará con dos tipos de usuarios: administradores y generales. Sus características se definen a continuación.
+| Administradores | Generales |
+|----- |----- |
+| Tendrán la capacidad de revisar proyectos enviados antes de su publicación formal. Esto se hace con el fin de verificar que los proyectos cumplan con los lineamientos del reglamento y que no haya propuestas que no tienen lugar en nuestra institución. Al fungir como jueces, no podrán tomar parte en la evaluación de los proyectos ni podrán comentarlos. Su labor se limita a aprobar las propuestas. | Solamente podrán enviar propuestas, comentarlas y evaluarlas. No podrán dar autorización a proyectos de otros usuarios ni a los propios. |
 
 ## 2.4 Operating Environment<a name="24"></a>
+La aplicación, como ya se mencionó, será una aplicación web. Funcionará con los navegadores más populares, como Chrome, Firefox, Safari y Edge. Para correr la aplicación, lo único que se necesita es acceso a un navegador y una conexión a internet activa. 
 
 ## 2.5 Design and Implementation Constraints<a name="25"></a>
+Por temas de seguridad, como deseamos implementar el Login con credenciales del ITAM, los desarrolladores de este proyecto están limitados por las formas que el ITAM ya ha decidido que son seguras y confiables para poder ingresar en el sistema. Si bien el proceso no es el más atractivo y puede tener algunos obstáculos, creemos que es bastante seguro y vale la pena utilizarlo. También es cierto que la aplicación funcionará para computadora; habrá que adaptarla para celular más adelante. Fuera de eso, no debería ser una aplicación muy difícil de ejecutar ni que necesite equipo tan especial.
 
 ## 2.6 User Documentation<a name="26"></a>
+Se pueden encontrar fácilmente la [documentación para replicar el proyecto](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DocumentacionReplicar.md) y un [diagrama de caso de uso](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DiagramaCasoDeUso.pdf). También se pone a disposición del usuario el [prototipo](https://app.moqups.com/0ZtC3Y6d6nMGTIMxgIoanfiN5oTVH2Oy/view/page/ad64222d5) que hemos preparado para este proyecto.
 
-## 2.7 Assumptions and Dependencies<a name="27"></a> 
+## 2.7 Assumptions and Dependencies<a name="27"></a>
+Estamos suponiendo —una gran suposición— que el ITAM nos permitirá utilizar los datos de los alumnos, así como que nos dará permiso de que los alumnos usen las mismas credenciales para entrar al sistema.
 
 # 3. External Interface Requirements<a name="3"></a>
 
