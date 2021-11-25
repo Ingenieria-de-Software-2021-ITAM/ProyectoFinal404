@@ -119,7 +119,8 @@ Se asignaron los tiempos de entrega dentro del plan del proyecto para las siguie
 
 | Nombre | Firma  |
 | ------ | ------ |
-| Carlos Alberto Delgado Elizondo ||
-| José Alberto Márquez Luján ||
-| Alexis Sánchez Orosco ||
-| Paulina Garza Allende ||
+| Carlos Delgado ||
+| Alberto Márquez ||
+| Alexis Sánchez ||
+| Paulina Garza ||
+
