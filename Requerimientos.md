@@ -57,6 +57,7 @@ Instituto Tecnológico Autónomo de México
 | Equipo 404NotFound | 24/11/2021 | Implementación del documento que vimos en clase| `2.0` |
 
 # 1. Introduction<a name="1"></a>
+Este proyecto es para no reprobar la materia :).
 
 ## 1.1 Purpose<a name="11"></a>
 
