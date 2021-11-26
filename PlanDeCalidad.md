@@ -104,6 +104,10 @@ Para proporcionar pruebas completas y adecuadas, las siguientes áreas deben abo
   * Todo el equipo de saber utilizar git y sus funciones como push, pull y crear ramas.
 
 # 15. Responsibilities <a name="15"></a>
+  * José Alberto: Revisar la base de datos y hacer pruebas con datos de prueba
+  * Alexis: Probar la arquitectura y asegurarse de que está bien implementada
+  * Carlos: Encargado de los prototipos
+  * Paulina: Hacer pruebas de las funcionalidades 
 
 # 16. Schedule<a name="16"></a>
 Se asignaron los tiempos de entrega dentro del plan del proyecto para las siguientes actividades de prueba. Las fechas y horas específicas para cada actividad se definen en el cronograma del plan del proyecto. Las personas necesarias para cada proceso se detallan también en el cronograma y el plan del proyecto. La coordinación del personal requerido para cada tarea, equipo de prueba, equipo de desarrollo, administración y cliente será manejada por el gerente del proyecto en conjunto con los líderes del equipo de desarrollo y prueba.
