@@ -71,7 +71,7 @@ Este documento está pensado principalmente para la maestra, quien evaluará el 
 El software que se describe en este documento consiste en una página web en la que distintos miembros de la comunidad ITAM podrá manifestar sus ideas sobre proyectos que tenga en mente, darles forma, compartirlos, dar y recibir retroalimentación, perfeccionar su idea y, así, facilitar el proceso que se necesita para la implementación. Creemos que es un buen mecanismo para darle voz a estudiantes y otros miembros de la comunidad. 
 
 ### 1.5 References<a name="15"></a>
-Como ya se mencionó, gran parte de la base de este proyecto, si no es que toda, está conformada por los temas cubiertos en la materia de Ingeniería de Software, impartido por la maestra Paulina Bustos Arellano. También queremos mencionar que el prototipo de este proyecto se realizó utilizando la plataforma [moqups](https://moqups.com/es/).
+Como ya se mencionó, gran parte de la base de este proyecto, si no es que toda, está conformada por los temas cubiertos en la materia de Ingeniería de Software, impartido por la maestra Paulina Bustos Arellano. También queremos mencionar que el [prototipo](https://app.moqups.com/UOjb8TIzCNEXW9im5LEFTFgYHXaukQKI/view/page/aa1545f3c) de este proyecto se realizó utilizando la plataforma [moqups](https://moqups.com/es/).
 
 ## 2. Overall Description<a name="2"></a>
 
@@ -94,7 +94,7 @@ La aplicación, como ya se mencionó, será una aplicación web. Funcionará con
 Por temas de seguridad, como deseamos implementar el Login con credenciales del ITAM, los desarrolladores de este proyecto están limitados por las formas que el ITAM ya ha decidido que son seguras y confiables para poder ingresar en el sistema. Si bien el proceso no es el más atractivo y puede tener algunos obstáculos, creemos que es bastante seguro y vale la pena utilizarlo. También es cierto que la aplicación funcionará para computadora; habrá que adaptarla para celular más adelante. Fuera de eso, no debería ser una aplicación muy difícil de ejecutar ni que necesite equipo tan especial.
 
 ### 2.6 User Documentation<a name="26"></a>
-Se pueden encontrar fácilmente la [documentación para replicar el proyecto](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DocumentacionReplicar.md) y un [diagrama de caso de uso](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DiagramaCasoDeUso.pdf). También se pone a disposición del usuario el [prototipo](https://app.moqups.com/0ZtC3Y6d6nMGTIMxgIoanfiN5oTVH2Oy/view/page/ad64222d5) que hemos preparado para este proyecto.
+Se pueden encontrar fácilmente la [documentación para replicar el proyecto](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DocumentacionReplicar.md) y un [diagrama de caso de uso](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DiagramaCasoDeUso.pdf). También se pone a disposición del usuario el [prototipo](https://app.moqups.com/UOjb8TIzCNEXW9im5LEFTFgYHXaukQKI/view/page/aa1545f3c) que hemos preparado para este proyecto.
 
 ### 2.7 Assumptions and Dependencies<a name="27"></a>
 Estamos suponiendo —una gran suposición— que el ITAM nos permitirá utilizar los datos de los alumnos, así como que nos dará permiso de que los alumnos usen las mismas credenciales para entrar al sistema.
@@ -102,7 +102,7 @@ Estamos suponiendo —una gran suposición— que el ITAM nos permitirá utiliza
 ## 3. External Interface Requirements<a name="3"></a>
 
 ### 3.1 User Interfaces<a name="31"></a>
-La interfaz de usuario, como ya se mencionó anteriormente, se modeló haciendo un [prototipo](https://app.moqups.com/0ZtC3Y6d6nMGTIMxgIoanfiN5oTVH2Oy/view/page/ad64222d5) en la plataforma moqups. En el link proporcionado se puede consultar todo lo que concierne a este tema.
+La interfaz de usuario, como ya se mencionó anteriormente, se modeló haciendo un [prototipo](https://app.moqups.com/UOjb8TIzCNEXW9im5LEFTFgYHXaukQKI/view/page/aa1545f3c) en la plataforma moqups. En el link proporcionado se puede consultar todo lo que concierne a este tema.
 
 ### 3.2 Hardware Interfaces<a name="32"></a>
 Al tratarse de una página web, la interacción con el hardware está limitada a lo que comúnmente hacen las páginas web. No se requiere un hardware muy específico para poder navegar en internet; consecuentemente, tampoco hay muchos requerimientos de hardware para la página web.
