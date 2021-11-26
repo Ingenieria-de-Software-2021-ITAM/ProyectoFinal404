@@ -15,6 +15,6 @@ Fecha de entrega: 26 de noviembre de 2021
 * [Plan de calidad](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/PlanDeCalidad.md)
 * [Arquitectura y justificación](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/Arquitectura.md)
 * [Metodología y justificación](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/Metodolog%C3%ADa%20de%20desarrollo.md)
-* [Prototipo del proyecto]()
+* [Prototipo del proyecto] (https://app.moqups.com/UOjb8TIzCNEXW9im5LEFTFgYHXaukQKI/view/page/aa1545f3c)
 * [Documentación para replicar](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/DocumentacionReplicar.md)
 * [Propuesta económica](https://github.com/Ingenieria-de-Software-2021-ITAM/ProyectoFinal404/blob/main/Estimaci%C3%B3nProyectoFinal.xlsx)
