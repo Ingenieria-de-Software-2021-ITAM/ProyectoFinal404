@@ -85,7 +85,7 @@ La funcionalidad principal de este producto es compartir propuestas de proyectos
 El proyecto contará con dos tipos de usuarios: administradores y generales. Sus características se definen a continuación.
 | Administradores | Generales |
 |----- |----- |
-| Tendrán la capacidad de revisar denuncias a los proyectos. Primero se pensó en que aprobaran propuestas antes de publicarlas, pero si se da la libertad a los estudiantes y profesores de poder proponer, podrían acumularse demasiadas propuestas. Es por esto que se decidió que los mismos usuarios denunciaran propuestas y que los administradores tomaran la decisión de dejarlas o no. | Solamente podrán enviar propuestas, comentarlas y evaluarlas. No podrán dar autorización a proyectos de otros usuarios ni a los propios. |
+| Tendrán la capacidad de revisar denuncias a los proyectos. Primero se pensó en que aprobaran propuestas antes de publicarlas, pero si se da la libertad a los estudiantes y profesores de poder proponer, podrían acumularse demasiadas propuestas. Es por esto que se decidió que los mismos usuarios denunciaran propuestas y que los administradores tomaran la decisión de dejarlas o no. | Podrán crear propuestas, comentarlas y evaluarlas. También podrán dar seguimiento a sus propias propuestas y a las de otros usuarios.  |
 
 ### 2.4 Operating Environment<a name="24"></a>
 La aplicación, como ya se mencionó, será una aplicación web. Funcionará con los navegadores más populares, como Chrome, Firefox, Safari y Edge. Para correr la aplicación, lo único que se necesita es acceso a un navegador y una conexión a internet activa. 
