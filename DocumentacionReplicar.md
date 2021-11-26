@@ -1,4 +1,4 @@
-# Documentación para replicar el repositorio
+# Documentación para replicar el repositorio y para abrir el prototipo.
 Se puede replicar el repositorio de dos maneras:
 - Usando la página web de GitHub
 - Usando `git` desde la terminal
@@ -26,3 +26,11 @@ Se puede replicar el repositorio de dos maneras:
 		```
 		git pull
 		```
+
+## Para abrir el prototipo
+1. Haga click en [aquí](https://app.moqups.com/UOjb8TIzCNEXW9im5LEFTFgYHXaukQKI/view/page/aa1545f3c). Si el link no funciona por alguna razón, puede copiar la siguiente dirección y pegarla en el navegador de su preferencia: 
+   
+   ```https://app.moqups.com/UOjb8TIzCNEXW9im5LEFTFgYHXaukQKI/view/page/aa1545f3c```
+
+2. En la parte superior derecha, verá unas flechas de la forma `<` y `>`. Puede utilizarlas para navegar por el prototipo. 
+3. Disfrute.
